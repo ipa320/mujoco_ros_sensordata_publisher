@@ -1,0 +1,10 @@
+<library path="lib/libmujoco_ros_sensordata_publisher">
+  <class
+    name="mujoco_ros_sensordata_publisher/SensordataPublisherPlugin"
+    type="mujoco_ros::sensordata_publisher::SensordataPublisherPlugin"
+    base_class_type="mujoco_ros::MujocoPlugin">
+    <description>
+      TODO: description
+    </description>
+  </class>
+</library>

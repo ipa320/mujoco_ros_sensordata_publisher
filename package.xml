@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mujoco_ros_sensordata_publisher</name>
+  <version>1.0.0</version>
+  <description>The mujoco_ros_sensordata_publisher package</description>
+
+  <maintainer email="balazs.andras.balint@ipa.fraunhofer.de">Balázs András Bálint</maintainer>
+
+  <license>BSD-3-Clause</license>
+
+  <author email="balazs.andras.balint@ipa.fraunhofer.de">Balázs András Bálint</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend version_gte="0.6.0" version_lt="0.7.0">mujoco_ros</depend>
+
+  <export>
+    <mujoco_ros plugin="${prefix}/mujoco_ros_sensordata_publisher.xml" />
+  </export>
+
+</package>
